@@ -1,0 +1,28 @@
+{
+	"name": "daft-framework/daft-router-example",
+	"description": "Example use of signpostmarv/daft-router",
+	"type": "project",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "SignpostMarv",
+			"email": "me@signpostmarv.name"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"DaftFramework\\DaftRouter\\Example\\": [
+				"./src/"
+			]
+		}
+	},
+	"require": {
+		"signpostmarv/daft-router": "^4.4",
+		"fzaninotto/faker": "^1.9",
+		"php": "^7.4"
+	},
+	"require-dev": {
+		"signpostmarv/php-cs-fixer-config": "^0.17.1",
+		"vimeo/psalm": "^3.9"
+	}
+}
