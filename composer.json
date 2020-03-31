@@ -17,12 +17,12 @@
 		}
 	},
 	"require": {
-		"signpostmarv/daft-router": "^4.4",
+		"signpostmarv/daft-router": "^4.5",
 		"fzaninotto/faker": "^1.9",
 		"php": "^7.4"
 	},
 	"require-dev": {
 		"signpostmarv/php-cs-fixer-config": "^0.17.1",
-		"vimeo/psalm": "^3.9"
+		"vimeo/psalm": "^3.10"
 	}
 }
